@@ -12,7 +12,7 @@ import { Analytics } from "@vercel/analytics/react";
 // Define the backend URL as a constant
 // ...existing imports...
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+const BACKEND_URL = "https://sdp-ejbl.onrender.com";
 
 // ...rest of your code... // Replace with your deployed backend URL
 
