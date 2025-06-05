@@ -6,11 +6,12 @@ import AdminPanel from "./components/AdminPanel";
 import MusicPlayer from "./components/MusicPlayer";
 import img from "./components/deepu profile.jpeg";
 import Logo from "./components/logo1.svg";
-import dotenv from "dotenv";
+
 import { Analytics } from "@vercel/analytics/react";
-dotenv.config();
+
 // Define the backend URL as a constant
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+const BACKEND_URL = "https://sdp-ejbl.onrender.com"; // Replace with your deployed backend URL
+
 function App() {
   const [token, setToken] = useState(localStorage.getItem("token"));
   const [isAdmin, setIsAdmin] = useState(false);
